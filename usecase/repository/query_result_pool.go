@@ -1,7 +1,12 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package repository
 
 import (
-	"github.com/khanhtc1202/boogeyman/domain"
+	"github.com/sniperkit/snk.fork.boogeyman/domain"
 )
 
 type QueryResultPool interface {

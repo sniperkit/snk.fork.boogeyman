@@ -1,9 +1,14 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package domain_test
 
 import (
 	"testing"
 
-	"github.com/khanhtc1202/boogeyman/domain"
+	"github.com/sniperkit/snk.fork.boogeyman/domain"
 )
 
 func TestQueryResult_Concatenate(t *testing.T) {

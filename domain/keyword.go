@@ -1,6 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package domain
 
-import "strings"
+import (
+	"strings"
+)
 
 type Keyword struct {
 	value string

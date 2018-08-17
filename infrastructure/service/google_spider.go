@@ -1,15 +1,19 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package service
 
 import (
-	"strings"
-
 	"fmt"
 	"os"
-
 	"regexp"
+	"strings"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/khanhtc1202/boogeyman/domain"
+
+	"github.com/sniperkit/snk.fork.boogeyman/domain"
 )
 
 const GoogleBaseURL = "https://www.google.com/search?q="

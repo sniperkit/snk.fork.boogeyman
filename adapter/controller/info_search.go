@@ -1,10 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package controller
 
 import (
-	"github.com/khanhtc1202/boogeyman/domain"
-	"github.com/khanhtc1202/boogeyman/usecase/interactor"
-	"github.com/khanhtc1202/boogeyman/usecase/presenter"
-	"github.com/khanhtc1202/boogeyman/usecase/repository"
+	"github.com/sniperkit/snk.fork.boogeyman/domain"
+	"github.com/sniperkit/snk.fork.boogeyman/usecase/interactor"
+	"github.com/sniperkit/snk.fork.boogeyman/usecase/presenter"
+	"github.com/sniperkit/snk.fork.boogeyman/usecase/repository"
 )
 
 type InfoSearch struct {

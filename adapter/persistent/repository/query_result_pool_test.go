@@ -1,11 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package repository_test
 
 import (
 	"testing"
 
-	"github.com/khanhtc1202/boogeyman/adapter/persistent/repository"
-	"github.com/khanhtc1202/boogeyman/adapter/persistent/service"
-	"github.com/khanhtc1202/boogeyman/domain"
+	"github.com/sniperkit/snk.fork.boogeyman/adapter/persistent/repository"
+	"github.com/sniperkit/snk.fork.boogeyman/adapter/persistent/service"
+	"github.com/sniperkit/snk.fork.boogeyman/domain"
 )
 
 type CollectorMock struct {

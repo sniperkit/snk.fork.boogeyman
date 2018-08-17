@@ -1,9 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package repository
 
 import (
-	"github.com/khanhtc1202/boogeyman/adapter/persistent/service"
-	"github.com/khanhtc1202/boogeyman/domain"
 	"github.com/pkg/errors"
+
+	"github.com/sniperkit/snk.fork.boogeyman/adapter/persistent/service"
+	"github.com/sniperkit/snk.fork.boogeyman/domain"
 )
 
 type QueryResultPool struct {

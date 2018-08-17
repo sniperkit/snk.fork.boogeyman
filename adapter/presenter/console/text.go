@@ -1,10 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package console
 
 import (
 	"github.com/fatih/color"
-	ioInterface "github.com/khanhtc1202/boogeyman/cross_cutting/io"
-	"github.com/khanhtc1202/boogeyman/domain"
-	"github.com/khanhtc1202/boogeyman/infrastructure/io"
+
+	ioInterface "github.com/sniperkit/snk.fork.boogeyman/cross_cutting/io"
+	"github.com/sniperkit/snk.fork.boogeyman/domain"
+	"github.com/sniperkit/snk.fork.boogeyman/infrastructure/io"
 )
 
 type TextPresenter struct {

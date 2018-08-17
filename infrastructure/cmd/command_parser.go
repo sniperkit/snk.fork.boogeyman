@@ -1,9 +1,14 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package cmd
 
 import (
 	"flag"
 
-	"github.com/khanhtc1202/boogeyman/infrastructure/cmd/data"
+	"github.com/sniperkit/snk.fork.boogeyman/infrastructure/cmd/data"
 )
 
 type Parser struct{}

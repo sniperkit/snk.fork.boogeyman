@@ -1,23 +1,30 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package service
 
 import (
-	"github.com/khanhtc1202/boogeyman/domain"
-	"github.com/PuerkitoBio/goquery"
-	"os"
 	"fmt"
+	"os"
+
+	"github.com/PuerkitoBio/goquery"
+
+	"github.com/sniperkit/snk.fork.boogeyman/domain"
 )
 
 const YahooBaseURL = "https://search.yahoo.com/search?p="
 
 type YahooSpider struct {
 	baseUrl string
-	ofType	domain.SearchEngineType
+	ofType  domain.SearchEngineType
 }
 
 func NewYahooSpider() *YahooSpider {
 	return &YahooSpider{
 		baseUrl: YahooBaseURL,
-		ofType:	domain.YAHOO,
+		ofType:  domain.YAHOO,
 	}
 }
 

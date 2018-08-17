@@ -1,6 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package meta_info
 
-import "fmt"
+import (
+	"fmt"
+)
 
 type MetaInfo struct {
 	Version   string

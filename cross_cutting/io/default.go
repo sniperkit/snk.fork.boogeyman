@@ -1,8 +1,14 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package io
 
 import (
 	"github.com/fatih/color"
-	"github.com/khanhtc1202/boogeyman/infrastructure/io"
+
+	"github.com/sniperkit/snk.fork.boogeyman/infrastructure/io"
 )
 
 var (

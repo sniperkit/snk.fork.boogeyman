@@ -1,10 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package service_test
 
 import (
 	"testing"
 
-	"github.com/khanhtc1202/boogeyman/domain"
-	"github.com/khanhtc1202/boogeyman/infrastructure/service"
+	"github.com/sniperkit/snk.fork.boogeyman/domain"
+	"github.com/sniperkit/snk.fork.boogeyman/infrastructure/service"
 )
 
 func TestBingSpider_Query(t *testing.T) {

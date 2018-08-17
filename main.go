@@ -1,19 +1,23 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
 	"os"
-
 	"strings"
 
-	"github.com/khanhtc1202/boogeyman/adapter/controller"
-	"github.com/khanhtc1202/boogeyman/adapter/persistent/repository"
-	"github.com/khanhtc1202/boogeyman/adapter/persistent/service"
-	"github.com/khanhtc1202/boogeyman/adapter/presenter/console"
-	"github.com/khanhtc1202/boogeyman/cross_cutting/io"
-	"github.com/khanhtc1202/boogeyman/domain"
-	"github.com/khanhtc1202/boogeyman/infrastructure/cmd"
-	"github.com/khanhtc1202/boogeyman/infrastructure/meta_info"
-	spiderPool "github.com/khanhtc1202/boogeyman/infrastructure/service"
+	"github.com/sniperkit/snk.fork.boogeyman/adapter/controller"
+	"github.com/sniperkit/snk.fork.boogeyman/adapter/persistent/repository"
+	"github.com/sniperkit/snk.fork.boogeyman/adapter/persistent/service"
+	"github.com/sniperkit/snk.fork.boogeyman/adapter/presenter/console"
+	"github.com/sniperkit/snk.fork.boogeyman/cross_cutting/io"
+	"github.com/sniperkit/snk.fork.boogeyman/domain"
+	"github.com/sniperkit/snk.fork.boogeyman/infrastructure/cmd"
+	"github.com/sniperkit/snk.fork.boogeyman/infrastructure/meta_info"
+	spiderPool "github.com/sniperkit/snk.fork.boogeyman/infrastructure/service"
 )
 
 var (

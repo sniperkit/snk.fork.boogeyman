@@ -1,7 +1,12 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package service
 
 import (
-	"github.com/khanhtc1202/boogeyman/domain"
+	"github.com/sniperkit/snk.fork.boogeyman/domain"
 )
 
 type Collector interface {

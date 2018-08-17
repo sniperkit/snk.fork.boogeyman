@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package service
 
 import (
@@ -5,7 +10,8 @@ import (
 	"os"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/khanhtc1202/boogeyman/domain"
+
+	"github.com/sniperkit/snk.fork.boogeyman/domain"
 )
 
 const AskBaseURL = "https://www.ask.com/web?q="
